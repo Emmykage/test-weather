@@ -1,0 +1,22 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Locations</h1>
+
+<div id="locations">
+  <% @locations.each do |location| %>
+  <div class="location">
+     <p class="city">city:  <%= location.name%> </p>
+    <div class="info">
+
+    <p> Temperature: <%= location.temp%> Kelvin </p>
+    <p>Humidity:  <%= location.hum%>  </p>
+    <p>Wind speed:  <%= location.wind%>mph </p>
+    <p>Description:  <%= location.description%> </p>
+    </div>
+      <%= link_to "Show this location", location %>
+
+  </div>
+   <% end %>
+</div>
+
+<%= link_to "New location", new_location_path %>

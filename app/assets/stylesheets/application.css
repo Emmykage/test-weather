@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+  
+    
+}
+.foot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sub-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 3% auto;
+}
+.sub-container p{
+    box-shadow: 0 0 2px rgba(76, 67, 67, 0.6); 
+    padding: 18px;
+}
+.location{
+    border: 1px solid rgb(76, 67, 67);
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+    align-items: center;
+}
+.city{
+    font-size: 34px;
+    color: green;
+}
+.info{
+    flex-basis: 30%;
+}
+span{
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+<p style="color: green"><%= notice %></p>
+
+<div class="sub-container">
+
+<h2>
+
+
+
+  <%= @showDetails['weather'][0]['main'] %>
+  </h2>
+  <p><span>pressure: </span>  <%= @showDetails['main']['pressure']%><span>Atm</span>
+</p>
+  <p><span> </span>   <%= @showDetails['main']['sea_level']%><span>M</span>
+</p>
+<p><span>ground level: </span> 
+  <%= @showDetails['main']['grnd_level']%><span>M</span>
+
+</p>
+<p><span>Humidity: </span> 
+  <%= @showDetails['main']['humidity']%><span>%</span>
+
+</p>
+<p><span> Visibilty:</span> 
+  <%= @showDetails['visibility']%> <span>Statute Miles</span>
+
+</p>
+<p><span> wind speed: </span> <%= @showDetails['wind']['speed'] %>
+ 
+</p>
+<p><span>
+  description:
+ </span> <%= @showDetails['weather'][0]['description'] %>
+  
+</p>
+</div>
+
+ 
+
+
+
+
+
+
+
+<div class="foot-container">
+  <%= link_to "Edit this location", edit_location_path(@location) %> |
+  <%= link_to "Back to locations", locations_path %>
+
+  <%= button_to "Destroy this location", @location, method: :delete %>
+</div>
