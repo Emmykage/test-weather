@@ -1,24 +1,68 @@
-# README
+# Weather App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Weather App with Temperature, pressure, Humidity and Wind speed information for Cities like Abuja, London, New York, Nairobi and Abu Dhabi
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+- Visual Studio code or any Code Editor.
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Download the file to local directory
 
-* Deployment instructions
+- with command - "git clone https://github.com/Emmykage/test-weather.git"
+  -- Or download the zip file from the github directory.
 
-* ...
+### Run the project locally
+
+- run -- "bundle install"
+
+### Create database in sqlite
+
+!!! important
+
+- run -- "rails db:create"
+
+- run -- "rails db:migrate"
+
+- run -- "rails db:seed"
+
+#### Linters tests
+
+- Eslint
+- Stylelint
+- node_modules checker
+
+## Authors
+
+👤 **Menanya Morris**
+
+- GitHub: [@emmykage](https://github.com/Emmykage)
+- Twitter: [@mennydev](https://twitter.com/mennydev)
+- LinkedIn: [Menanya Morris](https://www.linkedin.com/in/morris-menanya)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- None
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
